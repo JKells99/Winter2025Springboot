@@ -1,2 +1,4 @@
-package com.keyin;public class PlaceHolder {
+package com.keyin;
+
+public class PlaceHolder {
 }
