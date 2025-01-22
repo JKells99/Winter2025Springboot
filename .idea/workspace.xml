@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3601d4b-3603-4143-ab4f-8df4ff8ca853" name="Changes" comment="Added Test File" />
+    <list default="true" id="f3601d4b-3603-4143-ab4f-8df4ff8ca853" name="Changes" comment="Added Test File">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/unittestexample/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/unittestexample/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/unittestexample/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/unittestexample/ZooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +66,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.PlaceHolder.executor": "Run",
+    "JUnit.AnimalTest.testAnimalCreation.executor": "Run",
+    "JUnit.ZooTest.executor": "Run",
+    "JUnit.ZooTest.testAddingAnimalToZoo.executor": "Debug",
+    "JUnit.ZooTest.testAddingAnimalToZooWithExistingAnimal.executor": "Run",
+    "JUnit.ZooTest.testCreatingZooWithName.executor": "Run",
+    "JUnit.ZooTest.testZoo.executor": "Run",
     "Maven.Winter2025Springboot [clean].executor": "Run",
     "Maven.Winter2025Springboot [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -78,25 +91,93 @@
       <recent name="com.keyin" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="PlaceHolder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.keyin.PlaceHolder" />
+  <component name="RunManager" selected="JUnit.AnimalTest.testAnimalCreation">
+    <configuration name="AnimalTest.testAnimalCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Winter2025Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.keyin.vehicles.*" />
+          <option name="PATTERN" value="com.keyin.unittestexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.unittestexample" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.unittestexample.AnimalTest" />
+      <option name="METHOD_NAME" value="testAnimalCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.unittestexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.unittestexample" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.unittestexample.ZooTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest.testAddingAnimalToZoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.unittestexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.unittestexample" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.unittestexample.ZooTest" />
+      <option name="METHOD_NAME" value="testAddingAnimalToZoo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest.testAddingAnimalToZooWithExistingAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.unittestexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.unittestexample" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.unittestexample.ZooTest" />
+      <option name="METHOD_NAME" value="testAddingAnimalToZooWithExistingAnimal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest.testCreatingZooWithName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.unittestexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.unittestexample" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.unittestexample.ZooTest" />
+      <option name="METHOD_NAME" value="testCreatingZooWithName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlaceHolder" />
-        <item itemvalue="Application.PlaceHolder" />
-        <item itemvalue="Application.PlaceHolder" />
+        <item itemvalue="JUnit.AnimalTest.testAnimalCreation" />
+        <item itemvalue="JUnit.ZooTest.testAddingAnimalToZooWithExistingAnimal" />
+        <item itemvalue="JUnit.ZooTest.testCreatingZooWithName" />
+        <item itemvalue="JUnit.ZooTest" />
+        <item itemvalue="JUnit.ZooTest.testAddingAnimalToZoo" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +201,9 @@
       <workItem from="1736791460345" duration="5000" />
       <workItem from="1736791513868" duration="891000" />
       <workItem from="1736858961773" duration="6000" />
-      <workItem from="1737463213126" duration="2322000" />
+      <workItem from="1737463213126" duration="2382000" />
+      <workItem from="1737465613665" duration="626000" />
+      <workItem from="1737549541313" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="Added Hello World!">
       <option name="closed" value="true" />
