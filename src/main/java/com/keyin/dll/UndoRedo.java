@@ -18,7 +18,8 @@ public class UndoRedo {
 
    public String undo(){
        if(currentNode == null || currentNode.prev ==null){
-           System.out.println("Nothing to undo");
+           System.out.println("No Node To Undo");
+           throw  new RuntimeException("No previous node");
 
 
        }
@@ -41,6 +42,14 @@ public class UndoRedo {
    public void displayHistory(){
        history.displayForward();
    }
+
+    public void displayCurrentState() {
+        if (currentNode != null) {
+            System.out.println("Current action: " + currentNode.data);
+        } else {
+            System.out.println("No actions in history.");
+        }
+    }
 
 
 

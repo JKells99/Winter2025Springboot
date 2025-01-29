@@ -22,7 +22,7 @@ public class DLL {
         }
     }
 
-    // Add a node to the front of the list
+
     public void addFirst(String data) {
         Node newNode = new Node(data);
 
@@ -35,7 +35,7 @@ public class DLL {
         }
     }
 
-    // Remove the last node from the list
+
     public void removeLast() {
         if (tail == null) {
             System.out.println("List is empty, nothing to remove.");
@@ -43,14 +43,14 @@ public class DLL {
         }
 
         if (head == tail) {
-            head = tail = null; // Only one element in the list
+            head = tail = null;
         } else {
             tail = tail.prev;
             tail.next = null;
         }
     }
 
-    // Remove the first node from the list
+
     public void removeFirst() {
         if (head == null) {
             System.out.println("List is empty, nothing to remove.");
@@ -58,14 +58,14 @@ public class DLL {
         }
 
         if (head == tail) {
-            head = tail = null; // Only one element in the list
+            head = tail = null;
         } else {
             head = head.next;
             head.prev = null;
         }
     }
 
-    // Find a node with specific data
+
     public Node find(String data) {
         Node temp = head;
         while (temp != null) {
@@ -74,10 +74,10 @@ public class DLL {
             }
             temp = temp.next;
         }
-        return null; // Return null if data not found
+        return null;
     }
 
-    // Display the list from head to tail
+
     public void displayForward() {
         Node temp = head;
         while (temp != null) {
@@ -87,7 +87,7 @@ public class DLL {
         System.out.println("null");
     }
 
-    // Display the list from tail to head
+
     public void displayBackward() {
         Node temp = tail;
         while (temp != null) {
@@ -97,12 +97,12 @@ public class DLL {
         System.out.println("null");
     }
 
-    // Check if the list is empty
+
     public boolean isEmpty() {
         return head == null;
     }
 
-    // Get the size of the list
+
     public int size() {
         int count = 0;
         Node temp = head;
@@ -113,12 +113,12 @@ public class DLL {
         return count;
     }
 
-    // Get the first node
+
     public Node getFirst() {
         return head;
     }
 
-    // Get the last node
+
     public Node getLast() {
         return tail;
     }

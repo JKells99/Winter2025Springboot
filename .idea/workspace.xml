@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3601d4b-3603-4143-ab4f-8df4ff8ca853" name="Changes" comment="Added Test File">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/UndoRedo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/RestServiceApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/dll/UndoRedo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/UndoRedo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
     "Application.UndoRedo.executor": "Debug",
     "Application.UndoRedoManager.executor": "Run",
     "Application.com.keyin.dll.UndoRedo.executor": "Run",
-    "JUnit.All in Winter2025Springboot.executor": "Debug",
+    "JUnit.All in Winter2025Springboot.executor": "Run",
     "JUnit.AnimalTest.testAnimalCreation.executor": "Debug",
     "JUnit.ZooTest.executor": "Debug",
     "JUnit.ZooTest.testAddingAnimalToZoo.executor": "Debug",
@@ -89,6 +86,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -98,7 +98,7 @@
       <recent name="com.keyin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Winter2025Springboot">
+  <component name="RunManager" selected="Application.DLLTest">
     <configuration name="DLLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.keyin.dll.DLLTest" />
       <module name="Winter2025Springboot" />
@@ -166,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DLLTest" />
         <item itemvalue="JUnit.All in Winter2025Springboot" />
         <item itemvalue="JUnit.ZooTest" />
         <item itemvalue="JUnit.AnimalTest.testAnimalCreation" />
-        <item itemvalue="Application.DLLTest" />
         <item itemvalue="Application.com.keyin.dll.UndoRedo" />
       </list>
     </recent_temporary>
@@ -197,7 +197,7 @@
       <workItem from="1737463213126" duration="2382000" />
       <workItem from="1737465613665" duration="626000" />
       <workItem from="1737549541313" duration="793000" />
-      <workItem from="1738165352680" duration="3182000" />
+      <workItem from="1738165352680" duration="5656000" />
     </task>
     <task id="LOCAL-00001" summary="Added Hello World!">
       <option name="closed" value="true" />
@@ -239,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737465500922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Test File">
+      <option name="closed" value="true" />
+      <created>1738172502530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738172502530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,8 +257,8 @@
     <MESSAGE value="Added Hello World!" />
     <MESSAGE value="Updated pom.xml" />
     <MESSAGE value="Added application.properties" />
-    <MESSAGE value="Added Test File" />
     <MESSAGE value="Added unit test examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added unit test examples" />
+    <MESSAGE value="Added Test File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test File" />
   </component>
 </project>

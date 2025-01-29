@@ -7,10 +7,15 @@ public class DLLTest {
        undoRedo.addAction("Action 1");
        undoRedo.addAction("Action 2");
        undoRedo.addAction("Action 3");
+       undoRedo.addAction("Action 4");
 
        undoRedo.undo();
+       undoRedo.undo();
+       undoRedo.undo();
+       undoRedo.undo();
 
-        undoRedo.displayHistory();
+
+        undoRedo.displayCurrentState();
 
     }
 }
