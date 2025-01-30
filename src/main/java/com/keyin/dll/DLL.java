@@ -22,20 +22,6 @@ public class DLL {
         }
     }
 
-
-    public void addFirst(String data) {
-        Node newNode = new Node(data);
-
-        if (head == null) {
-            head = tail = newNode;
-        } else {
-            newNode.next = head;
-            head.prev = newNode;
-            head = newNode;
-        }
-    }
-
-
     public void removeLast() {
         if (tail == null) {
             System.out.println("List is empty, nothing to remove.");
