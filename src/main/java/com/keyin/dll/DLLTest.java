@@ -12,10 +12,27 @@ public class DLLTest {
        undoRedo.undo();
        undoRedo.undo();
        undoRedo.undo();
-       undoRedo.undo();
+       undoRedo.redo();
+
 
 
         undoRedo.displayCurrentState();
+
+        DLL dll = new DLL();
+        dll.addAtPosition("Hello",1);
+        dll.addAtPosition("World",2);
+        dll.addAtPosition("This",3);
+        dll.addAtPosition("World",4);
+        dll.addAtPosition("Geoff",1);
+
+
+
+        dll.displayForward();
+
+
+
+
+
 
     }
 }
