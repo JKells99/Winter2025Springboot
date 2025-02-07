@@ -10,7 +10,7 @@ public class DLL {
         tail = null;
     }
 
-    public void addLast( String data) {
+    public void addLast(String data) {
         // create a temp node
         Node newNode = new Node(data);
 
