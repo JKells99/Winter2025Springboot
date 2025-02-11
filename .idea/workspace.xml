@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="f3601d4b-3603-4143-ab4f-8df4ff8ca853" name="Changes" comment="Added files for Patient">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/RestServiceApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/patient/PatientTest.java" afterDir="false" />
+    <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/dll/DllTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/dll/UndoRedoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/unittestexample/AnimalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/unittestexample/ZooTest.java" beforeDir="false" />
-=======
-    <list default="true" id="f3601d4b-3603-4143-ab4f-8df4ff8ca853" name="Changes" comment="Added  DLL, UndoRedo, DLL test, UndoRedo Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/dll/DLLTest.java" afterDir="false" />
->>>>>>> master
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +22,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Added-unit-test" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -48,13 +35,6 @@
     &quot;assignee&quot;: &quot;JKells99&quot;
   }
 }</component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
-    </option>
-  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JKells99/Winter2025Springboot.git&quot;,
@@ -62,78 +42,32 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2raG0g9KkZWJg2DkH2MLGTgpBcy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2srMcNko1uZT0SUcSNbZ1WdciYP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.DLLTest.executor": "Run",
-    "Application.PlaceHolder.executor": "Run",
-    "Application.UndoRedo.executor": "Debug",
-    "Application.UndoRedoManager.executor": "Run",
-    "Application.com.keyin.dll.UndoRedo.executor": "Run",
-    "JUnit.All in Winter2025Springboot.executor": "Run",
-    "JUnit.AnimalTest.testAnimalCreation.executor": "Debug",
-    "JUnit.AnimalTest.testAnimalGetter.executor": "Run",
-    "JUnit.AnimalTest.testAnimalSetter.executor": "Run",
-    "JUnit.DllTest.executor": "Debug",
-    "JUnit.DllTest.testAddAtPosition.executor": "Run",
-    "JUnit.DllTest.testDllCreation.executor": "Run",
-    "JUnit.DllTest.testIsEmpty.executor": "Debug",
-    "JUnit.DllTest.testRemoveAtPosition.executor": "Run",
-    "JUnit.RestServiceApplicationTest.contextLoads.executor": "Run",
-    "JUnit.RestServiceApplicationTest.simpleTest.executor": "Run",
-    "JUnit.UndoRedoTest.executor": "Debug",
-    "JUnit.UndoRedoTest.testUndoInUndoRedo.executor": "Run",
-    "JUnit.UndoRedoTest.testUndoRedoCreate.executor": "Debug",
-    "JUnit.UndoRedoTest.testUndoThrowsExceptionWhenTooManyUndos.executor": "Run",
-    "JUnit.UndoRedoTest.testUndoThrowsExceptionWhenTooManyhUndos.executor": "Debug",
-    "JUnit.ZooTest.executor": "Debug",
-    "JUnit.ZooTest.testAddingAnimalToZoo.executor": "Debug",
-    "JUnit.ZooTest.testAddingAnimalToZooWithExistingAnimal.executor": "Run",
-    "JUnit.ZooTest.testCreatingZooWithName.executor": "Run",
-    "JUnit.ZooTest.testZoo.executor": "Run",
-    "JUnit.java in Winter2025Springboot.executor": "Run",
-    "Maven.Winter2025Springboot [clean].executor": "Run",
-    "Maven.Winter2025Springboot [install].executor": "Run",
-    "Maven.Winter2025Springboot [package].executor": "Run",
-    "Maven.Winter2025Springboot [test].executor": "Run",
+    "Application.QueueExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "15-create-the-required-classes-reposservicecontrollers-for-patient",
+    "Spring Boot.RestServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.keyin" />
-    </key>
-  </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JUnit.RestServiceApplicationTest.simpleTest">
-    <configuration name="RestServiceApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunManager" selected="Application.DLLTest">
-    <configuration name="DLLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.keyin.dll.DLLTest" />
->>>>>>> master
+  <component name="RunManager" selected="Spring Boot.RestServiceApplication">
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keyin.QueueExample" />
       <module name="Winter2025Springboot" />
       <extension name="coverage">
         <pattern>
@@ -141,115 +75,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
-      <option name="PACKAGE_NAME" value="com.keyin" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.RestServiceApplicationTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestServiceApplicationTest.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="Winter2025Springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.keyin.RestServiceApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.keyin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.keyin" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.RestServiceApplicationTest" />
-      <option name="METHOD_NAME" value="simpleTest" />
-      <option name="TEST_OBJECT" value="method" />
-=======
->>>>>>> master
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UndoRedoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Winter2025Springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keyin.dll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keyin.dll" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.dll.UndoRedoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UndoRedoTest.testUndoInUndoRedo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Winter2025Springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keyin.dll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keyin.dll" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.dll.UndoRedoTest" />
-      <option name="METHOD_NAME" value="testUndoInUndoRedo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="UndoRedoTest.testUndoThrowsExceptionWhenTooManyhUndos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="UndoRedoTest.testUndoRedoCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Winter2025Springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keyin.dll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keyin.dll" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.dll.UndoRedoTest" />
-      <option name="METHOD_NAME" value="testUndoRedoCreate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UndoRedoTest.testUndoThrowsExceptionWhenTooManyUndos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> master
-      <module name="Winter2025Springboot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.keyin.dll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.keyin.dll" />
-      <option name="MAIN_CLASS_NAME" value="com.keyin.dll.UndoRedoTest" />
-      <option name="METHOD_NAME" value="testUndoThrowsExceptionWhenTooManyUndos" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="JUnit.RestServiceApplicationTest.simpleTest" />
-        <item itemvalue="JUnit.RestServiceApplicationTest.contextLoads" />
-        <item itemvalue="JUnit.UndoRedoTest.testUndoThrowsExceptionWhenTooManyhUndos" />
-        <item itemvalue="JUnit.UndoRedoTest" />
-        <item itemvalue="JUnit.UndoRedoTest.testUndoInUndoRedo" />
-=======
-        <item itemvalue="Application.DLLTest" />
-        <item itemvalue="JUnit.UndoRedoTest.testUndoThrowsExceptionWhenTooManyUndos" />
-        <item itemvalue="JUnit.UndoRedoTest" />
-        <item itemvalue="JUnit.UndoRedoTest.testUndoInUndoRedo" />
-        <item itemvalue="JUnit.UndoRedoTest.testUndoRedoCreate" />
->>>>>>> master
+        <item itemvalue="Spring Boot.RestServiceApplication" />
+        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -264,127 +111,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f3601d4b-3603-4143-ab4f-8df4ff8ca853" name="Changes" comment="" />
-      <created>1736789552052</created>
+      <changelist id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="" />
+      <created>1739209319105</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736789552052</updated>
-      <workItem from="1736789553114" duration="1898000" />
-      <workItem from="1736791460345" duration="5000" />
-      <workItem from="1736791513868" duration="891000" />
-      <workItem from="1736858961773" duration="6000" />
-      <workItem from="1737463213126" duration="2382000" />
-      <workItem from="1737465613665" duration="626000" />
-      <workItem from="1737549541313" duration="793000" />
-      <workItem from="1738165352680" duration="6817000" />
-<<<<<<< HEAD
-      <workItem from="1738245136971" duration="5690000" />
-      <workItem from="1738932432189" duration="824000" />
-=======
-      <workItem from="1738245136971" duration="6369000" />
-      <workItem from="1738334014217" duration="3616000" />
->>>>>>> master
+      <updated>1739209319105</updated>
+      <workItem from="1739209320170" duration="1592000" />
+      <workItem from="1739298245122" duration="2602000" />
     </task>
-    <task id="LOCAL-00001" summary="Added Hello World!">
-      <option name="closed" value="true" />
-      <created>1736789945786</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1736789945786</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added Hello World!">
-      <option name="closed" value="true" />
-      <created>1736790051124</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1736790051124</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Updated pom.xml">
-      <option name="closed" value="true" />
-      <created>1737464420140</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1737464420140</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added application.properties">
-      <option name="closed" value="true" />
-      <created>1737464846290</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1737464846290</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added Test File">
-      <option name="closed" value="true" />
-      <created>1737465500922</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1737465500922</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added Test File">
-      <option name="closed" value="true" />
-      <created>1738172502530</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1738172502530</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added Test File">
-      <option name="closed" value="true" />
-      <created>1738175563820</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1738175563820</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added Test File">
-      <option name="closed" value="true" />
-      <created>1738245161476</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1738245161476</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00009" summary="Added files for Patient">
-      <option name="closed" value="true" />
-      <created>1738932790811</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1738932790811</updated>
-=======
-    <task id="LOCAL-00009" summary="Added  DLL, UndoRedo, DLL test, UndoRedo Test">
-      <option name="closed" value="true" />
-      <created>1738256595309</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1738256595309</updated>
->>>>>>> master
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Hello World!" />
-    <MESSAGE value="Updated pom.xml" />
-    <MESSAGE value="Added application.properties" />
-    <MESSAGE value="Added unit test examples" />
-    <MESSAGE value="Added Test File" />
-<<<<<<< HEAD
-    <MESSAGE value="Added files for Patient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files for Patient" />
-=======
-    <MESSAGE value="Added  DLL, UndoRedo, DLL test, UndoRedo Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added  DLL, UndoRedo, DLL test, UndoRedo Test" />
->>>>>>> master
   </component>
 </project>
