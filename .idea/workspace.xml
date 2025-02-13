@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="">
+    <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="started the spring app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +48,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.NotationReview.executor": "Run",
     "Application.QueueExample.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.RestServiceApplication.executor": "Run",
+    "Spring Boot.RestServiceApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -66,6 +67,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.RestServiceApplication">
+    <configuration name="NotationReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keyin.NotationReview" />
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.keyin.QueueExample" />
       <module name="Winter2025Springboot" />
@@ -96,6 +110,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RestServiceApplication" />
+        <item itemvalue="Application.NotationReview" />
         <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
@@ -117,11 +132,26 @@
       <option name="presentableId" value="Default" />
       <updated>1739209319105</updated>
       <workItem from="1739209320170" duration="1592000" />
-      <workItem from="1739298245122" duration="2602000" />
+      <workItem from="1739298245122" duration="3921000" />
+      <workItem from="1739382391089" duration="1794000" />
+      <workItem from="1739454209329" duration="1463000" />
     </task>
+    <task id="LOCAL-00001" summary="started the spring app">
+      <option name="closed" value="true" />
+      <created>1739301778336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739301778336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="started the spring app" />
+    <option name="LAST_COMMIT_MESSAGE" value="started the spring app" />
   </component>
 </project>

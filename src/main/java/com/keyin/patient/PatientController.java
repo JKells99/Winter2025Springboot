@@ -1,11 +1,9 @@
 package com.keyin.patient;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
@@ -18,6 +16,19 @@ public class PatientController {
     public Iterable<Patient> getAllPatients() {
         return patientService.getPatients();
     }
+
+    @PostMapping("/patient")
+    public Patient addPatient(@RequestBody Patient patient) {
+        return patientService.createPatient(patient);
+    }
+
+    @DeleteMapping("/patient/{id}")
+    public ResponseEntity<String> deletePatient(@PathVariable int id) {
+        patientService.deletePatientById(id);
+        return ResponseEntity.ok().body("Patient deleted");
+
+    }
+
 
 
 }

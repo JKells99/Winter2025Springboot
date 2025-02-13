@@ -14,4 +14,13 @@ public class PatientService {
     }
 
 
+    public Patient createPatient(Patient patient) {
+        return patientRepository.save(patient);
+    }
+
+    public void deletePatientById(int id) {
+        patientRepository.deleteById(id);
+    }
+
+
 }
