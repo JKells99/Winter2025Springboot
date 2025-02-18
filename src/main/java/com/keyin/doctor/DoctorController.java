@@ -37,20 +37,22 @@ public class DoctorController {
     }
 
     @PostMapping("/{doctorId}/add-patient/{patientID}")
-    public ResponseEntity<?> addPatientTODoctor(@PathVariable Long doctorId, @PathVariable Long patientID){
-        Optional<Doctor> doctor = Optional.ofNullable(doctorService.findById(doctorId));
-        Optional<Patient> patient = Optional.ofNullable(patientService.getPatientById(patientID));
+    public ResponseEntity<String> addPatientToDoctor(@PathVariable Long doctorId, @PathVariable Long patientID) {
+        Doctor doctor = doctorService.findById(doctorId);
+        Patient patient = patientService.getPatientById(patientID);
 
-        if(doctor.isPresent()){
-            if(doctor.get().getPatientList().contains(patient.get())){
-                return new ResponseEntity<>("Patient Already Exist In Patient List", HttpStatus.CONFLICT);
-            } else{
-                doctor.get().getPatientList().add(patient.orElse(null));
-                doctorService.createDoctor(doctor.get());
-            }
+        if (doctor == null || patient == null) {
+            return new ResponseEntity<>("Doctor or patient not found", HttpStatus.NOT_FOUND);
         }
 
-        return new ResponseEntity<>("Added Patient To List,", HttpStatus.CREATED);
+        if (doctor.getPatientList().contains(patient)) {
+            return new ResponseEntity<>("Patient already exists in patient list", HttpStatus.CONFLICT);
+        }
+
+        doctor.getPatientList().add(patient);
+        doctorService.createDoctor(doctor);
+
+        return new ResponseEntity<>("Added patient to list", HttpStatus.CREATED);
     }
 
     @GetMapping("/getAllPatientsForDoctorById/{doctorId}")

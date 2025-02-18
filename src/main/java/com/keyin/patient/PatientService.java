@@ -37,6 +37,7 @@ public class PatientService {
         patient.setGender(patientDetails.getGender());
         patient.setAge(patientDetails.getAge());
         patient.setPhoneNumber(patientDetails.getPhoneNumber());
+        patient.setBloodPressures(patientDetails.getBloodPressures());
 
         return patientRepository.save(patient);
     }

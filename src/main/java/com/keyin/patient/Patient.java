@@ -1,10 +1,11 @@
 package com.keyin.patient;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.keyin.bloodpressure.BloodPressure;
+import jakarta.persistence.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Patient {
@@ -23,6 +24,9 @@ public class Patient {
 
     private String phoneNumber;
 
+    @OneToMany
+    List<BloodPressure> bloodPressures;
+
     public Patient(Long userId, String firstName, String lastName, int age, String gender, String phoneNumber) {
         this.userId = userId;
         this.firstName = firstName;
@@ -30,6 +34,7 @@ public class Patient {
         this.age = age;
         this.gender = gender;
         this.phoneNumber = phoneNumber;
+        this.bloodPressures = new ArrayList<BloodPressure>();
     }
 
     public Patient(String firstName, String lastName, int age, String gender, String phoneNumber) {
@@ -90,4 +95,18 @@ public class Patient {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public List<BloodPressure> getBloodPressures() {
+        return bloodPressures;
+    }
+
+    public void setBloodPressures(List<BloodPressure> bloodPressures) {
+        this.bloodPressures = bloodPressures;
+    }
+
+    public void addBloodPressure(BloodPressure bloodPressure) {
+        this.bloodPressures.add(bloodPressure);
+    }
+
+
 }
