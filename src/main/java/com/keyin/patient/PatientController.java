@@ -55,7 +55,6 @@ public class PatientController {
     @GetMapping("/getAllBpReadingsForPatient/{patientId}")
     public List<BloodPressure> getAllReadingsForPatientById(@PathVariable Long patientId){
         Patient patient = patientService.getPatientById(patientId);
-
         return patient.getBloodPressures();
     }
 

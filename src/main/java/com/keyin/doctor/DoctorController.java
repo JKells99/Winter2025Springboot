@@ -2,6 +2,8 @@ package com.keyin.doctor;
 
 import com.keyin.patient.Patient;
 import com.keyin.patient.PatientService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +16,8 @@ import java.util.Optional;
 @RequestMapping("/api/doctor")
 public class DoctorController {
 
+
+    private static final Logger log = LoggerFactory.getLogger(DoctorController.class);
     @Autowired
     private DoctorService doctorService;
     @Autowired
@@ -21,6 +25,7 @@ public class DoctorController {
 
     @GetMapping("/getAllDoctors")
     public Iterable<Doctor> getAllDoctors() {
+        log.error("Fetched ALl Doctors");
         return doctorService.getAllDoctors();
     }
 

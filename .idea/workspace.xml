@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="added things to app">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/Clinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/patient/PatientServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/doctor/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/doctor/DoctorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/doctor/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/doctor/DoctorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/patient/PatientTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +27,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -38,6 +42,13 @@
     &quot;assignee&quot;: &quot;JKells99&quot;
   }
 }</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JKells99/Winter2025Springboot.git&quot;,
@@ -52,59 +63,108 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2srMcNko1uZT0SUcSNbZ1WdciYP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.NotationReview.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.RestServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.NotationReview.executor": "Run",
+    "Application.QueueExample.executor": "Run",
+    "JUnit.PatientRepositoryTest.testFindAll.executor": "Run",
+    "JUnit.PatientRepositoryTest.testGetPatientById.executor": "Run",
+    "JUnit.PatientRepositoryTest.testRepoFindAll.executor": "Run",
+    "JUnit.PatientRepositoryTest.testSaveUser.executor": "Run",
+    "JUnit.PatientServiceTest.testGetPatientById.executor": "Debug",
+    "JUnit.PatientServiceTest.testRepoFindAll.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.RestServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.keyin" />
       <recent name="com.keyin.patient" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestServiceApplication">
-    <configuration name="NotationReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.keyin.NotationReview" />
+  <component name="RunManager" selected="JUnit.PatientServiceTest.testRepoFindAll">
+    <configuration name="PatientServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Winter2025Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.keyin.*" />
+          <option name="PATTERN" value="com.keyin.patient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.patient" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.patient.PatientServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.keyin.QueueExample" />
+    <configuration name="PatientServiceTest.testGetPatientById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Winter2025Springboot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.keyin.*" />
+          <option name="PATTERN" value="com.keyin.patient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.patient" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.patient.PatientServiceTest" />
+      <option name="METHOD_NAME" value="testGetPatientById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceTest.testRepoFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.patient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.patient" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.patient.PatientServiceTest" />
+      <option name="METHOD_NAME" value="testRepoFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Winter2025Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.patient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin.patient" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.patient.PatientServiceTest" />
+      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,9 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PatientServiceTest.testRepoFindAll" />
+        <item itemvalue="JUnit.PatientServiceTest.testGetPatientById" />
+        <item itemvalue="JUnit.PatientServiceTest.testSaveUser" />
+        <item itemvalue="JUnit.PatientServiceTest.testFindAll" />
         <item itemvalue="Spring Boot.RestServiceApplication" />
-        <item itemvalue="Application.NotationReview" />
-        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +215,10 @@
       <workItem from="1739454209329" duration="4712000" />
       <workItem from="1739543234981" duration="11281000" />
       <workItem from="1739807893683" duration="4013000" />
-      <workItem from="1739882141838" duration="4289000" />
+      <workItem from="1739882141838" duration="16474000" />
+      <workItem from="1739976983749" duration="4628000" />
+      <workItem from="1740149001136" duration="2748000" />
+      <workItem from="1740495632360" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="started the spring app">
       <option name="closed" value="true" />
@@ -179,13 +244,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739554329022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added things to app">
+      <option name="closed" value="true" />
+      <created>1739888468975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739888468975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="started the spring app" />
     <MESSAGE value="added things to app" />
     <option name="LAST_COMMIT_MESSAGE" value="added things to app" />
