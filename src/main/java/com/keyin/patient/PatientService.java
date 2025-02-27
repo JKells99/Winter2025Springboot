@@ -1,6 +1,7 @@
 package com.keyin.patient;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +13,7 @@ public class PatientService {
     @Autowired
     private PatientRepository patientRepository;
 
+    @Cacheable("patients")
     public Iterable<Patient> getPatients() {
         return patientRepository.findAll();
     }
