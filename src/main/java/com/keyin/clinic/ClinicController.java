@@ -36,7 +36,7 @@ public class ClinicController {
     }
 
     @PostMapping("/{clinicId}/add-patient/{patientID}")
-    public ResponseEntity<String> addPatientToClinic(@PathVariable Long clinicId, @PathVariable Long patientID) {
+    public ResponseEntity<String> addPatientToClinic(@PathVariable Long clinicId, @PathVariable Long patientID) throws Exception {
         Clinic clinic = clinicService.findClinicById(clinicId);
         Patient patient = patientService.getPatientById(patientID);
 
@@ -55,7 +55,7 @@ public class ClinicController {
     }
 
     @PostMapping("/{clinicId}/add-doctor-to-clinic/{doctorId}")
-    public ResponseEntity<String> addDoctorToClinic(@PathVariable Long clinicId, @PathVariable Long doctorId) {
+    public ResponseEntity<String> addDoctorToClinic(@PathVariable Long clinicId, @PathVariable Long doctorId) throws Exception {
         Clinic clinic = clinicService.findClinicById(clinicId);
         Doctor doctor = doctorService.findById(doctorId);
 

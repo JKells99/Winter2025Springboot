@@ -1,0 +1,11 @@
+version: '3'
+services:
+  myapp-main:
+    image: bptracking:latest
+    ports:
+      - 8080:8080
+    environment:
+#      - spring.datasource.url=jdbc:mysql://host.docker.internal:3306/hockey_db_2024
+      - spring.datasource.url=jdbc:mysql://bptracking.czo6a2muuk9c.us-east-2.rds.amazonaws.com/bptracking
+      - spring.datasource.password=jordan1234
+      - spring.datasource.username=admin

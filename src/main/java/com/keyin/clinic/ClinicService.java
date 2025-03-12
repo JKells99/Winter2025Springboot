@@ -2,7 +2,6 @@ package com.keyin.clinic;
 
 import com.keyin.patient.Patient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -27,9 +26,9 @@ public class ClinicService {
         return clinicRepository.findById(clinicId).orElse(null);
     }
 
-    public Clinic updateClinic(Long clinicId, Clinic clinicDetails) {
+    public Clinic updateClinic(Long clinicId, Clinic clinicDetails) throws Exception {
         Clinic clinic = clinicRepository.findById(clinicId)
-                .orElseThrow(() -> new ResourceNotFoundException("Patient not found"));
+                .orElseThrow(() -> new Exception("Patient not found"));
         clinic.setClinicName(clinicDetails.getClinicName());
         clinic.setClinicAddress(clinicDetails.getClinicAddress());
         clinic.setClinicPhoneNumber(clinicDetails.getClinicPhoneNumber());

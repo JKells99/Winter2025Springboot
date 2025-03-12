@@ -2,10 +2,8 @@ package com.keyin.patient;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
 
 @Service
 public class PatientService {
@@ -13,7 +11,7 @@ public class PatientService {
     @Autowired
     private PatientRepository patientRepository;
 
-    @Cacheable("patients")
+
     public Iterable<Patient> getPatients() {
         return patientRepository.findAll();
     }
@@ -31,9 +29,9 @@ public class PatientService {
         return patientRepository.findById(id).orElse(null);
     }
 
-    public Patient updatePatient(Long patientId, Patient patientDetails) {
+    public Patient updatePatient(Long patientId, Patient patientDetails) throws Exception {
         Patient patient = patientRepository.findById(patientId)
-                .orElseThrow(() -> new ResourceNotFoundException("Patient not found"));
+                .orElseThrow(() -> new Exception("Patient not found"));
         patient.setFirstName(patientDetails.getFirstName());
         patient.setLastName(patientDetails.getLastName());
         patient.setGender(patientDetails.getGender());
