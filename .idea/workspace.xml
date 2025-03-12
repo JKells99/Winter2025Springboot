@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="added things to app">
+      <change afterPath="$PROJECT_DIR$/Docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/RestServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/bloodpressure/BloodPressureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/clinic/ClinicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/doctor/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/doctor/DoctorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +53,16 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/JKells99/Winter2025Springboot.git&quot;,
-    &quot;accountId&quot;: &quot;71ffdbb2-4518-4673-b2a4-f6ad9918218b&quot;
+    &quot;accountId&quot;: &quot;35ea7a9a-7b33-49e4-a4e2-7b28155a8fc4&quot;
   }
 }</component>
   <component name="JvmLoggingSettingsStorage">
     <option name="loggerId" value="Slf4j" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -72,13 +87,17 @@
     "JUnit.PatientRepositoryTest.testSaveUser.executor": "Run",
     "JUnit.PatientServiceTest.testGetPatientById.executor": "Debug",
     "JUnit.PatientServiceTest.testRepoFindAll.executor": "Run",
+    "Maven.Winter2025Springboot [clean].executor": "Run",
+    "Maven.Winter2025Springboot [install].executor": "Run",
+    "Maven.Winter2025Springboot [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RestServiceApplication.executor": "Run",
+    "Spring Boot.RestServiceApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -86,6 +105,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -187,8 +209,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -211,6 +233,11 @@
       <workItem from="1740149001136" duration="2748000" />
       <workItem from="1740495632360" duration="3944000" />
       <workItem from="1740574020850" duration="5936000" />
+      <workItem from="1740706160516" duration="118000" />
+      <workItem from="1740706996969" duration="5000" />
+      <workItem from="1740753132175" duration="893000" />
+      <workItem from="1741624975295" duration="4956000" />
+      <workItem from="1741779990628" duration="5354000" />
     </task>
     <task id="LOCAL-00001" summary="started the spring app">
       <option name="closed" value="true" />
