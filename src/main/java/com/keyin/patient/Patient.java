@@ -2,6 +2,8 @@ package com.keyin.patient;
 
 
 import com.keyin.bloodpressure.BloodPressure;
+import com.keyin.insurance.Insurance;
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -27,7 +29,11 @@ public class Patient {
     @OneToMany
     List<BloodPressure> bloodPressures;
 
-    public Patient(Long userId, String firstName, String lastName, int age, String gender, String phoneNumber) {
+    @OneToOne
+    Insurance insurance;
+
+
+    public Patient(Long userId, String firstName, String lastName, int age, String gender, String phoneNumber,Insurance insurance) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -35,6 +41,7 @@ public class Patient {
         this.gender = gender;
         this.phoneNumber = phoneNumber;
         this.bloodPressures = new ArrayList<BloodPressure>();
+        this.insurance = insurance;
     }
 
     public Patient(String firstName, String lastName, int age, String gender, String phoneNumber) {
@@ -108,5 +115,11 @@ public class Patient {
         this.bloodPressures.add(bloodPressure);
     }
 
+    public Insurance getInsurance() {
+        return insurance;
+    }
 
+    public void setInsurance(Insurance insurance) {
+        this.insurance = insurance;
+    }
 }

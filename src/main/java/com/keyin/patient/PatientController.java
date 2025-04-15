@@ -2,6 +2,8 @@ package com.keyin.patient;
 
 import com.keyin.bloodpressure.BloodPressure;
 import com.keyin.bloodpressure.BloodPressureService;
+import com.keyin.insurance.Insurance;
+import com.keyin.insurance.InsuranceRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,9 @@ public class PatientController {
     @Autowired
     private BloodPressureService bloodPressureService;
 
+    @Autowired
+    private InsuranceRepository insuranceRepository;
+
     @GetMapping("/getAllPatients")
     public Iterable<Patient> getAllPatients() {
         return patientService.getPatients();
@@ -32,6 +37,13 @@ public class PatientController {
     @PostMapping("/createPatient")
     public Patient addPatient(@RequestBody Patient patient) {
         try {
+            Insurance patientInsurance = insuranceRepository.findByInsuranceName(patient.insurance.getInsuranceName());
+            if(patientInsurance == null) {
+                insuranceRepository.save(patient.getInsurance());
+                log.info("Insurance not found, creating new insurance");
+
+            }
+
             return patientService.createPatient(patient);
         } catch (Exception e) {
             throw new RuntimeException(e);
