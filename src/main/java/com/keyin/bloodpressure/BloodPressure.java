@@ -4,12 +4,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.Getter;
+import lombok.Setter;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+@Setter
+@Getter
 @Entity
 public class BloodPressure {
 
@@ -42,43 +43,4 @@ public class BloodPressure {
     public BloodPressure() {
     }
 
-    public Long getBloodPressureid() {
-        return bloodPressureid;
-    }
-
-    public void setBloodPressureid(Long bloodPressureid) {
-        this.bloodPressureid = bloodPressureid;
-    }
-
-    public int getSystolicPressure() {
-        return systolicPressure;
-    }
-
-    public void setSystolicPressure(int systolicPressure) {
-        this.systolicPressure = systolicPressure;
-    }
-
-    public int getDiastolicPressure() {
-        return diastolicPressure;
-    }
-
-    public void setDiastolicPressure(int diastolicPressure) {
-        this.diastolicPressure = diastolicPressure;
-    }
-
-    public int getHeartRate() {
-        return heartRate;
-    }
-
-    public void setHeartRate(int heartRate) {
-        this.heartRate = heartRate;
-    }
-
-    public LocalDateTime getTimeOfReading() {
-        return timeOfReading;
-    }
-
-    public void setTimeOfReading(LocalDateTime timeOfReading) {
-        this.timeOfReading = timeOfReading;
-    }
 }

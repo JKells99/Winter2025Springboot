@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="added things to app">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/insurance/Insurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/insurance/InsuranceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="36e6e6b9-9ac0-41cc-ae6a-f6b32eebf9e7" name="Changes" comment="added insurance feature">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/patient/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/patient/PatientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/patient/PatientServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RestServiceApplication.executor": "Run",
+    "Spring Boot.RestServiceApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -232,7 +227,7 @@
       <workItem from="1740753132175" duration="893000" />
       <workItem from="1741624975295" duration="4956000" />
       <workItem from="1741779990628" duration="5354000" />
-      <workItem from="1744734520290" duration="837000" />
+      <workItem from="1744734520290" duration="2896000" />
     </task>
     <task id="LOCAL-00001" summary="started the spring app">
       <option name="closed" value="true" />
@@ -282,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740574308025</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added insurance feature">
+      <option name="closed" value="true" />
+      <created>1744735470707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744735470707</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +295,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="started the spring app" />
     <MESSAGE value="added things to app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added things to app" />
+    <MESSAGE value="added insurance feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="added insurance feature" />
   </component>
 </project>

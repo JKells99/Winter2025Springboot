@@ -5,10 +5,14 @@ import com.keyin.bloodpressure.BloodPressure;
 import com.keyin.insurance.Insurance;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Setter
+@Getter
 @Entity
 public class Patient {
 
@@ -55,71 +59,8 @@ public class Patient {
     public Patient() {
     }
 
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public List<BloodPressure> getBloodPressures() {
-        return bloodPressures;
-    }
-
-    public void setBloodPressures(List<BloodPressure> bloodPressures) {
-        this.bloodPressures = bloodPressures;
-    }
-
     public void addBloodPressure(BloodPressure bloodPressure) {
         this.bloodPressures.add(bloodPressure);
     }
 
-    public Insurance getInsurance() {
-        return insurance;
-    }
-
-    public void setInsurance(Insurance insurance) {
-        this.insurance = insurance;
-    }
 }

@@ -3,10 +3,14 @@ package com.keyin.clinic;
 import com.keyin.doctor.Doctor;
 import com.keyin.patient.Patient;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Setter
+@Getter
 @Entity
 public class Clinic {
 
@@ -35,54 +39,6 @@ public class Clinic {
 
     }
     public Clinic() {
-    }
-
-    public Long getClinicId() {
-        return clinicId;
-    }
-
-    public void setClinicId(Long clinicId) {
-        this.clinicId = clinicId;
-    }
-
-    public String getClinicName() {
-        return clinicName;
-    }
-
-    public void setClinicName(String clinicName) {
-        this.clinicName = clinicName;
-    }
-
-    public String getClinicAddress() {
-        return clinicAddress;
-    }
-
-    public void setClinicAddress(String clinicAddress) {
-        this.clinicAddress = clinicAddress;
-    }
-
-    public String getClinicPhoneNumber() {
-        return clinicPhoneNumber;
-    }
-
-    public void setClinicPhoneNumber(String clinicPhoneNumber) {
-        this.clinicPhoneNumber = clinicPhoneNumber;
-    }
-
-    public List<Patient> getPatientList() {
-        return patientList;
-    }
-
-    public void setPatientList(List<Patient> patientList) {
-        this.patientList = patientList;
-    }
-
-    public List<Doctor> getDoctorList() {
-        return doctorList;
-    }
-
-    public void setDoctorList(List<Doctor> doctorList) {
-        this.doctorList = doctorList;
     }
 
     public void addToPatientList(Patient patient){

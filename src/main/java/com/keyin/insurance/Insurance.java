@@ -4,7 +4,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
 public class Insurance {
     @Id
@@ -37,51 +41,4 @@ public class Insurance {
 
     }
 
-    public Long getInsuranceId() {
-        return insuranceId;
-    }
-
-    public void setInsuranceId(Long insuranceId) {
-        this.insuranceId = insuranceId;
-    }
-
-    public String getInsuranceName() {
-        return insuranceName;
-    }
-
-    public void setInsuranceName(String insuranceName) {
-        this.insuranceName = insuranceName;
-    }
-
-    public String getInsuranceType() {
-        return insuranceType;
-    }
-
-    public void setInsuranceType(String insuranceType) {
-        this.insuranceType = insuranceType;
-    }
-
-    public String getInsuranceNumber() {
-        return insuranceNumber;
-    }
-
-    public void setInsuranceNumber(String insuranceNumber) {
-        this.insuranceNumber = insuranceNumber;
-    }
-
-    public String getInsuranceExpiryDate() {
-        return insuranceExpiryDate;
-    }
-
-    public void setInsuranceExpiryDate(String insuranceExpiryDate) {
-        this.insuranceExpiryDate = insuranceExpiryDate;
-    }
-
-    public String getInsuranceProvider() {
-        return insuranceProvider;
-    }
-
-    public void setInsuranceProvider(String insuranceProvider) {
-        this.insuranceProvider = insuranceProvider;
-    }
 }
